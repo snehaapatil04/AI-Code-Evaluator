@@ -1,0 +1,74 @@
+
+# AI Code Evaluator
+
+A Python-based code evaluation tool that checks candidate solutions against predefined test cases and generates an evaluation report.
+
+## Features
+
+- Evaluates Python functions against test cases.
+- Detects correct and incorrect outputs.
+- Handles runtime exceptions.
+- Generates evaluation reports.
+- Calculates test pass rates.
+- Supports edge-case testing.
+- Includes automated tests using pytest.
+
+## Technologies Used
+
+- Python 3.12
+- pytest
+
+## Project Structure
+
+AI-Code-Evaluator/
+- evaluator.py
+- test_evaluator.py
+- main.py
+- README.md
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd AI-Code-Evaluator
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate on Windows:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Install pytest:
+
+```bash
+pip install pytest
+```
+
+## Run the Evaluator
+
+```bash
+python main.py
+```
+
+## Run Automated Tests
+
+```bash
+pytest -v
+```
+
+## Current Scope
+
+This project evaluates Python functions using predefined test cases. It currently uses sample candidate solutions and does not directly connect to an AI model or execute arbitrary source code.
+
+## Author
+
+Sneha Patil
